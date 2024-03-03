@@ -166,10 +166,10 @@ const Catalogue = () => {
       	))
 			}
 			<hr className="mt-9"/>
-			<div className='flex mt-8'>
+			<div className='flex justify-between mt-8'>
 					{
 						activeItems.map((activeItem) => (
-							<div key={activeItem.ID} className='w-64 border border-black border-solid mr-8'>
+							<div key={activeItem.ID} className='w-64 border border-black border-solid'>
 								<img className='w-64 h-44' src={activeItem.pictureLink} />
 								<div className='px-3 font-semibold text-sm opacity-40 mt-5'>{activeItem.type}</div>
 								<div className='px-3 mt-6 font-extrabold text-base'>{activeItem.name}</div>
